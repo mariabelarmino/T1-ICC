@@ -1,0 +1,159 @@
+<html>
+<title> Página Principal </title>
+</head>
+
+<body>
+
+
+    <h1> Giovana Silverio Pereira e Maria Luiza Alves Belarmino </h1>
+    Registro acadêmico: 2023.1.08.005 e 2023.1.08.015 
+    <br> <br> 
+    <img src= "imagem.jpg" > 
+    <h1>O Sistema de Controle de Versões Git</h1>
+    Controle de versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo para
+    que você possa lembrar versões específicas mais tarde. Basicamente, os arquivos do projeto ficam armazenados em um
+    repositório (um servidor em outras palavras) e o histórico de suas versões é salvo nele. Os desenvolvedores podem
+    acessar e resgatar a ultima versão disponível e fazer uma cópia local, na qual poderão trabalhar em cima dela e
+    continuar o processo de desenvolvimento. A cada alteração feita, é possível enviar novamente ao servidor e atualizar
+    a sua versão a partir outras feitas pelos demais desenvolvedores.
+    <br> <br> <br> <br>
+    <h1>O Repositório GitHub</h1>
+    Para colocar seu projeto no GitHub, você precisará criar um repositório no qual ele residirá. Um repositório
+    GitHub permite que os desenvolvedores colaborem de forma remota e distribuída com uma ferramenta de versionamento
+    instalada localmente. Os desenvolvedores usam uma interface de linha de comando para implementar funções no Git, um
+    software de controle de versão.
+    <br> <br> <br> <br>
+    <h1> Comandos Git </h1>
+    <strong> INIT </strong>
+    - init é uma maneira de iniciar um novo projeto com o Git. 
+    <br>
+    - git init: Transforme o diretório atual em um repositório Git
+    <br>
+    - git init `directory`: Transforme um diretório no caminho atual em um repositório Git
+    <br> <br>
+    <strong> CLONE </strong>
+    - para iniciar um novo projeto em um controle remoto que já existe
+    <br>
+    - git clone:O controle remoto já existe
+    <br>
+    - git clone [url]: Clone (baixe) um repositório que já existe no GitHub, incluindo todos os arquivos, branches e
+    commits.
+    <br> <br>
+    <strong>BRANCH</strong>
+    - os branches permitem que você desenvolva recursos, corrija erros ou experimente com segurança novas ideias em uma
+    área contida do seu repositório.
+    <br> <br>
+    <strong>CHECKOUT</strong>
+    - o git checkout é uma forma de alternar entre versões de arquivos, commits ou branches. Ele tem diferentes formas
+    de usar, mas seus dois principais usos são: trocar de branch ou restaurar arquivos.
+    <br>
+    Quando você está em um branch e quer trocar para outro você pode usá-lo. Um outro uso, é quando você precisa voltar
+    para uma versão específica de um arquivo ou restaurar apenas aquele arquivo para um commit específico.
+    <br> <br>
+    <strong> STATUS </strong>
+    - o git status exibe o estado do diretório de trabalho e da área de preparação. Ele permite que você veja quais
+    alterações foram testadas, quais não foram e quais arquivos não estão sendo rastreados pelo Git.
+    <br> <br>
+    <strong> DIFF </strong>
+    - o git diff é um comando Git multiuso que, quando executado, realiza uma função de comparação nas fontes de dados
+    Git. Essas fontes de dados podem ser commits, ramificações, arquivos e outros.
+    <br> <br>
+    <strong> ADD </strong>
+    - o git add adiciona uma alteração no diretório de trabalho à área de preparação. Ele informa ao Git que você deseja
+    incluir atualizações em um arquivo específico no próximo commit. No entanto, `git add`não afeta realmente o
+    repositório de maneira significativa - as alterações não são realmente registradas até que você execute `git
+    commit`.
+    <br> <br>
+    <strong> COMMIT </strong>
+    - o git commit permite que você crie um commit, ou seja, você consegue guardar o estado do seu repositório naquele
+    momento. Existem diferentes estratégias para fazer commits, mas a ideia principal é que a cada ponto em que o seu
+    código esteja funcionando com uma nova pequena funcionalidade, exista um commit.
+    <br>
+    Dessa forma, ao longo do tempo, você vai conseguir ver uma “história” do seu repositório e o que aconteceu para que
+    chegasse do jeito que está hoje. Um commit, além de mostrar um *snapshot* do seu repositório, tem outros metadados,
+    como autoria, uma mensagem, timestamp, entre outros.
+    <br> <br>
+    <strong> PUSH </strong>
+    - o comando git push usa dois argumentos:
+    <br>
+    ° Um nome de repositório remoto, por exemplo, `origin`
+    <br>
+    ° Um nome de branch, por exemplo, `main`
+    <br> <br>
+    <strong> PULL </strong>
+    - o git pull é um comando útil para quem trabalha no desenvolvimento de projetos em equipe e precisa estar sempre
+    com a última versão do arquivo. É um atalho que permite verificar os repositórios remotos (git fetch) e gerar um
+    arquivo final atualizado localmente (git merge).
+    <br> <br>
+    <strong> REVERT </strong>
+    - o git revert é uma operação de desfazer de avanço que oferece um método seguro de desfazer alterações. Em vez de
+    excluir ou tornar os commits órfãos no histórico de commits, uma reversão criará um novo commit que inverte as
+    alterações especificadas.
+    <br> <br>
+    <strong> MERGE </strong>
+    - o git merge pega dois indicadores de commit, em geral, as pontas do branch e encontra um commit base em comum
+    entre eles. Assim que o Git encontra um commit base em comum, ele cria uma nova "confirmação de mesclagem"
+    combinando as alterações de cada sequência de merge commit enfileirada.
+    <br> <br>
+    <strong> STASH </strong>
+    - o git stash salva as alterações sem commit (tanto as preparadas quanto as não preparadas) para uso posterior e as
+    reverte da cópia de trabalho.
+    <br> <br>
+    <strong> RM </strong>
+    - o git rm é usado para remover um arquivo de um repositório do git. É um método simples que combina o efeito do
+    comando shell rm padrão com git add .
+    <br> <br>
+    <strong> CONFIG </strong>
+    - o git config que permite ver e atribuir variáveis de configuração que controlam todos os aspectos e como o Git
+    aparece e opera.
+    <br> <br>
+    <strong> HELP </strong>
+    - o git help imprime a sinopse e uma lista dos comandos mais usados. Caso a opção `--all` ou `-a` seja usada, todos
+    os comandos disponíveis serão impressos. Caso um comando Git seja informado, esta opção exibirá a página do manual
+    deste comando.
+    <br> <br>
+    <strong> REBASE </strong>
+    - o git rebase move/ combina uma sequência de comits para um novo comit base. O rebasing é mais útil e melhor
+    visualizado no contexto do fluxo de trabalho de ramificação de recurso.
+    <br> <br>
+    <strong> BLAME </strong>
+    - a função geral do git blame é a exibição de metadados do autor anexados a linhas de commit específicas em um
+    arquivo.
+    <br> <br>
+    <strong> TAG </strong>
+    - o git tag é em geral usado para capturar um ponto no histórico que é usado para uma versão marcada. Um marcador é
+    como uma ramificação que não muda. Diferente das ramificações, os marcadores depois de criados não têm mais
+    histórico de commits.
+    <br> <br>
+    <strong> RESET </strong>
+    - o git reset é um comando poderoso usado para desfazer alterações locais no estado de um repositório Git. `Git
+    reset`opera em "As Três Árvores do Git". Essas árvores são o Commit History ( `HEAD`), o Staging Index e o Working
+    Directory. Existem três opções de linha de comando que correspondem às três árvores.
+    <br> <br>
+    <strong> REMOTE </strong>
+    - o git remote comando é uma parte do sistema mais amplo responsável por sincronizar as alterações. Os registros
+    registrados por meio do `git remote`comando são usados em conjunto com os  comandos `git fetch`, `git push`e . `git
+    pull`Todos esses comandos têm suas próprias responsabilidades de sincronização, que podem ser exploradas nos links
+    correspondentes.
+    <br> <br>
+    <strong> FETCH </strong>
+    - o git fetch é um comando primário usado para baixar o conteúdo de um repositório remoto. `git fetch`é usado em
+    conjunto com `git remote`, `git branch`, `git checkout`e `git reset` para atualizar um repositório local para o
+    estado de um remoto. O `git fetch`comando é uma parte crítica dos fluxos de trabalho git colaborativos. `git
+    fetch`tem comportamento semelhante ao `git pull`, porém,  `git fetch`pode ser considerada uma versão mais segura e
+    não destrutiva.
+    <br> <br>
+    <strong> SHOW </strong>
+    - o git show é um utilitário de linha de comando usado para exibir detalhes expandidos em objetos Git, como blobs,
+    árvores, tags e confirmações. `git-show`tem um comportamento específico por tipo de objeto.
+    <br> <br> <br>
+
+    <h1>Por que usar o Git?</h1>
+    <a href="audio.html">Descubra</a>
+    <br> <br>
+    <h1>5 comandos Git</h1>
+    <a href="video.html">Veja</a>
+    <br> <br> <br> 
+</body>
+
+</html>
